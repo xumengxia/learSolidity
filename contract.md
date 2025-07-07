@@ -27,3 +27,5 @@ https://remix.ethereum.org/
         name:'lemon',
         age:18
      }
+   7. 结构体 struct
+   8. 枚举类型 enum

@@ -10,7 +10,23 @@ contract Counter {
     string name; // string字符串
     uint[5] arr; // 数组
     mapping(address => uint) users; // map
+    struct Student {
+        // 结构体
+        uint age;
+        uint id;
+        string name;
+        string phone;
+    }
 
+    // 结构体 ------------------------------------------------
+    // Student memory lemon = Student(18, 1, "lemon", "1234567890");
+    // 枚举类型 0/1
+    enum Gender {
+        male,
+        female
+    }
+
+    // Gender = 0  // 判断他的枚举值
     constructor() public {
         // 数组 ------------------------------------------------
         arr[0] = 1;
