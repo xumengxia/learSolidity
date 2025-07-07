@@ -17,3 +17,13 @@ https://remix.ethereum.org/
      0x0000000000000000000000000000000000000000 （0x表示16禁止  长度40）
      1.合约里面全局变量 msg.sender 部署合约的地址
      2.地址有很多方法，blance查看余额 transfer 转账
+  4. 字符串
+     string name = 'lemon'
+  5. 数组
+     unit [5] arr=[1,2,3,4,5]
+  6. map
+     所谓的map 跟js对象是一个东西
+     {
+        name:'lemon',
+        age:18
+     }
